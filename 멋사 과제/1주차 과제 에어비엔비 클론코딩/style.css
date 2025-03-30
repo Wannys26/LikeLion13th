@@ -1,0 +1,147 @@
+/* 창 크기 1128px*825.60px 기준 */
+
+/* 전체 초기화 */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+
+  }
+
+/* 회색 폰트 지정 */
+.font-color-gray {
+    color: gray;
+}
+
+/* 말줄임 표시 */
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* 모든 div 박스를 담는 
+container 크기 및 padding 설정 */
+.container {
+    width : 1112.8px;
+    height: 679.79px;
+    padding : 48px 80px 96px;
+}
+
+/* ⭐header div style⭐ */
+/* 서울의 인기 급상승 숙소 */
+/* 에어비엔비에서 많은 관심을 받고 있으며 평점이 높은 숙소입니다. */
+/* 두 div 관리 */
+
+/* 두 div 담고 있는 div 크기 설정 */
+.header {
+    width: 952.8px;
+    height: 96px;
+}
+
+/* 서울의 인기 급상승 숙소 */
+.header h2 {
+    color: #222222;
+    font-size: 32px;
+    font-style: "Airbnb Cereal VF";
+
+    padding: 0 0 8px;
+}
+
+/* 에어비엔비에서 많은 관심을 받고 있으며 평점이 높은 숙소입니다. */
+.header>div {
+    color: #222222;
+    font-size: 18px;
+    font-style: "Airbnb Cereal VF";
+
+    padding: 0 0 24px;
+}
+
+/* ⭐card-container div style⭐ */
+.card-container{
+    width: 952.8px;
+    height: 360.19px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 카드 속 이미지랑 이미지 위의 글자 담은 박스 */
+.card-image-container{
+    position: relative;
+}
+
+/* 카드 속 이미지 위에 글자 담는 박스 */
+.card-img-float-box{
+
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width : 100px;
+    height : 25px;
+
+    border-radius: 15px;
+
+    background-color: white;
+
+    /* 글자 가운데 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* card-container 안에 들어가는 카드들 */
+.card {
+    width: 220.2px;
+    height: 360.19px;
+    font-size: 0.935em;
+
+    padding: 4px 0px 36px;
+}
+
+/* 카드 안에 들어가는 이미지들 */
+.card-image{
+    width : 220.2px;
+    height: 209.19px;
+    margin : 0 0 12px 0;
+
+    border-radius: 8px;
+
+    z-index: -1;
+}
+
+/* 카드 안에 들어가는 숙소 이름과 별점 */
+.card-title-and-rating {
+    width: 220.2px;
+    height: 19px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ⭐footer 더찾아보기 버튼 구현⭐ */
+.footer {
+    width: 952.8px;
+    height: 47.6px;
+}
+
+.footer-button {
+    width: 131.03px;
+    height: 47.6px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+
+    color: #222222;
+    font-size: 15px;
+    font-style: "Airbnb Cereal VF";
+
+    padding: 13px 23px;
+
+    cursor: pointer;
+}
