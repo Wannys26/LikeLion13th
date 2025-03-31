@@ -13,7 +13,7 @@
     color: gray;
 }
 
-/* 말줄임 표시 */
+/* 자동 말줄임 표시 */
 .ellipsis {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -144,4 +144,20 @@ container 크기 및 padding 설정 */
     padding: 13px 23px;
 
     cursor: pointer;
+}
+
+/* 플러스 버튼 스타일 */
+#plusButton {
+    width: 30px;
+    height: 30px;
+    
+    text-align: center;
+}
+
+/* 마이너스 버튼 스타일 */
+#minusButton {
+    width: 30px;
+    height: 30px;
+
+    text-align: center;
 }
