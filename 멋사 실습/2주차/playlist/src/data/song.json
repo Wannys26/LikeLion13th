@@ -1,3 +1,4 @@
+[
 {
     "albumImage": "/src/assets/rebel-heart.jpeg",
     "releaseDate": "2025-01-13",
@@ -5,4 +6,29 @@
     "title": "REBEL HEART",
     "lyricist": "Nietzsche",
     "composer": "Emily Harbakk"
+  },
+{
+    "albumImage": "/src/assets/pink-venom.jpeg",
+    "releaseDate": "2022-09-16",
+    "artist": "BLACKPINK",
+    "title": "Pink Venom",
+    "lyricist": "Teddy",
+    "composer": "R.Tee"
+  },
+{
+    "albumImage": "/src/assets/next-level.jpeg",
+    "releaseDate": "2021-05-17",
+    "artist": "aespa",
+    "title": "Next Level",
+    "lyricist": "Kang Ji-won",
+    "composer": "Yoo Young-jin"
+  },
+  {
+    "albumImage": "/src/assets/after-like.jpeg",
+    "releaseDate": "2022-08-22",
+    "artist": "IVE",
+    "title": "After LIKE",
+    "lyricist": "Yoon Mi-rae",
+    "composer": "Yoon Mi-rae"
   }
+]

@@ -28,3 +28,4 @@ minusButton.addEventListener("click", ()=>{
     card1Value.textContent = value;
     makeLocaleString();s
 })
+
