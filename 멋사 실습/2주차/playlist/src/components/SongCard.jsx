@@ -5,7 +5,7 @@ const SongCard = ({ albumImage, releaseDate, artist, title, lyricist, composer, 
   return(
     <section
       onClick={onClick}
-      className="cursor-pointer bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl overflow-hidden shadow-md transition hover:scale-[1.02] hover:shadow-lg duration-300"
+      className="ph:w-60 ph:p-3 ph:m-3 ph:text-sm dt:w-70 dt:p-6 dt:m-5 dt:text-base cursor-pointer bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl overflow-hidden shadow-md transition hover:scale-[1.02] hover:shadow-lg duration-300"
     >
       <img
         src={albumImage}
